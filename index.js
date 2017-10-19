@@ -18,7 +18,7 @@ var iv = setInterval(function(){
   
     //led_state값을 gpio에 기록  
     led.writeSync(led_state)    
-}, 500);    
+}, 1818);    
      
 // 5초 후에 LED를 깜박이는게 중지됨    
 setTimeout(function() {    
